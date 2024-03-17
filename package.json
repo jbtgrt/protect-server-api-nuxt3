@@ -1,0 +1,35 @@
+{
+  "name": "protect-sever-endpoints-nuxt3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "ui": "npx --yes ui-thing@latest add"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.10.3",
+    "pinia": "^2.1.7",
+    "radix-vue": "^1.5.2",
+    "tailwind-variants": "^0.2.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.0",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@vueuse/nuxt": "^10.9.0",
+    "nuxt-auth-utils": "^0.0.20",
+    "nuxt-icon": "^0.6.9",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.4.2"
+  }
+}
